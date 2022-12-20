@@ -263,7 +263,7 @@
         
     }
     #icon {
-        object-fit: none;
+        object-fit: contain;
         width: 50px;
         height: 50px;
     }
