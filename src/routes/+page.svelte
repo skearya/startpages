@@ -99,24 +99,36 @@
         </div>
         <div class="div4">
             <div class="linkParent">
-                <div class="link1"><a href="https://www.notion.so/">
-                    <img alt="Notion" src="https://img.icons8.com/glyph-neue/48/null/notion.png"/>
-                </a></div>
-                <div class="link2"><a href="https://www.udemy.com/">
-                    <img alt="Udemy" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/null/external-udemycom-is-an-online-learning-and-teaching-platform-logo-bold-tal-revivo.png"/>
-                </a></div>
-                <div class="link3"><a href="https://drive.google.com">
-                    <img alt="Drive" src="https://img.icons8.com/fluency-systems-filled/48/null/google-drive.png"/>    
-                </a></div>
-                <div class="link4"><a href="https://monkeytype.com/">
-                    <img alt="Typing" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-keyboard-social-media-ui-tanah-basah-glyph-tanah-basah.png"/>
-                </a></div>
-                <div class="link5"><a href="https://github.com">
-                    <img alt="GitHub" src="https://img.icons8.com/ios-filled/48/null/github.png"/>
-                </a></div>
-                <div class="link6"><a href="https://bitwarden.com/">
-                    <img alt="Passwords" src="https://img.icons8.com/ios/48/null/bitwarden.png"/>
-                </a></div> 
+                <div class="link1">
+                    <a class="link" href="https://www.notion.so/">
+                        <img alt="Notion" src="https://img.icons8.com/glyph-neue/48/null/notion.png"/>
+                    </a>
+                </div>
+                <div class="link2">
+                    <a class="link" href="https://www.udemy.com/">
+                        <img alt="Udemy" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/48/null/external-udemycom-is-an-online-learning-and-teaching-platform-logo-bold-tal-revivo.png"/>
+                    </a>
+                </div>
+                <div class="link3">
+                    <a class="link" href="https://drive.google.com">
+                        <img alt="Drive" src="https://img.icons8.com/fluency-systems-filled/48/null/google-drive.png"/>    
+                    </a>
+                </div>
+                <div class="link4">
+                    <a class="link" href="https://monkeytype.com/">
+                        <img alt="Typing" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-keyboard-social-media-ui-tanah-basah-glyph-tanah-basah.png"/>
+                    </a>
+                </div>
+                <div class="link5">
+                    <a class="link" href="https://github.com">
+                      <img alt="GitHub" src="https://img.icons8.com/ios-filled/48/null/github.png"/>
+                  </a>
+                </div>
+                <div class="link6">
+                    <a class="link" href="https://bitwarden.com/">
+                        <img alt="Passwords" src="https://img.icons8.com/ios/48/null/bitwarden.png"/>
+                    </a>
+                </div> 
             </div> 
         </div>
         <div class="div5">
@@ -321,6 +333,14 @@
     .parent .div4 {
         align-items: unset;
     }
+    .link {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 1; */
+    }
 
     .link1 {
         grid-area: 1 / 1 / 2 / 2;
@@ -339,6 +359,10 @@
     }
     .link6 {
         grid-area: 3 / 2 / 4 / 3;
-    } 
+    }
+
+    .parent .linkParent div {
+        padding: 0;
+    }
 
 </style>
