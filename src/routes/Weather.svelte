@@ -13,7 +13,7 @@
         </h3>
         <img
             id="icon"
-            src="http://openweathermap.org/img/wn/{weather.weather[0].icon.slice(
+            src="https://openweathermap.org/img/wn/{weather.weather[0].icon.slice(
                 0,
                 -1
             ) + (dark == true ? 'n' : 'd')}@2x.png"
