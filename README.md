@@ -11,7 +11,9 @@
 ## Usage
 
 > npm install
+
 > npm run build
+
 > npm run preview
 
 To get the notion component to work you will most likely need to change the api request in src/+page.server.js to fit your database, other configuration is done through environment variables.
