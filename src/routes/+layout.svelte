@@ -1,5 +1,6 @@
 <script>
   import "../app.css";
+  import Toggle from "./Toggle.svelte";
 </script>
 
 <nav class="crumbs">
@@ -17,10 +18,8 @@
 
   <div>
     <li class="crumb">
-      <a
-        style="color: black; background-color: #61D67E; padding: 1px 5px; border-radius: 5px;"
-        href="https://github.com/skearya/startpage">repo</a
-      >
+      <Toggle>toggle</Toggle>
+      <a id="repo" href="https://github.com/skearya/startpage">repo</a>
     </li>
   </div>
 </nav>
@@ -28,6 +27,16 @@
 <slot />
 
 <style>
+  :global(body) {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+  }
+  :global(body.dark-mode) {
+    background-color: #1c1c1c;
+    color: white;
+  }
+
   nav {
     display: flex;
     flex-flow: row nowrap;
@@ -53,6 +62,13 @@
     background-color: #fadd75;
   }
 
+  #repo {
+    background-color: #61d67e;
+    color: black;
+    padding: 1px 5px;
+    border-radius: 5px;
+  }
+
   a:link {
     text-decoration: none;
   }
@@ -64,5 +80,9 @@
   }
   a:active {
     text-decoration: none;
+  }
+
+  :global(body.dark-mode) #repo {
+    color: white;
   }
 </style>

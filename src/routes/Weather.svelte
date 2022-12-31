@@ -76,4 +76,11 @@
         color: rgba(0, 0, 0, 0.75);
         font-size: 1.5rem;
     }
+
+    :global(body.dark-mode) #feels {
+        color: rgba(255, 255, 255, 0.5);
+    }
+    :global(body.dark-mode) .w2 {
+        color: rgba(255, 255, 255, 0.9);
+    }
 </style>

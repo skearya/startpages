@@ -58,6 +58,7 @@
     }
 
     .parent div {
+        transition: background-color 0.3s;
         background-color: rgba(10, 10, 10, 0.05);
         display: flex;
         justify-content: center;
@@ -113,5 +114,9 @@
     }
     .div5 {
         grid-area: 2 / 3 / 3 / 4;
+    }
+
+    :global(body.dark-mode) .parent div {
+        background-color: #242424;
     }
 </style>

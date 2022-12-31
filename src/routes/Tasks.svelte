@@ -4,8 +4,7 @@
 
 <div class="container">
     <div class="count">
-        <a href={notion.url} style="color: black; margin: 0;">tasks</a>:
-        &nbsp
+        <a id="tasks" href={notion.url}>tasks</a>: &nbsp
         <p style="font-weight: bold; margin: 0;">
             {notion.length}
         </p>
@@ -51,5 +50,14 @@
     .count {
         display: flex;
         flex-flow: row;
+    }
+
+    #tasks {
+        color: black;
+        margin: 0;
+    }
+
+    :global(body.dark-mode) #tasks {
+        color: white;
     }
 </style>
