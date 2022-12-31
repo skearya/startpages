@@ -18,7 +18,7 @@ export async function load() {
 };
 
 async function getTasks() {
-  if (NOTION_DB == undefined || NOTION_KEY == undefined) {
+  if (NOTION_DB == "" || NOTION_KEY == "") {
     return {
       length: "no notion key",
       tasks: "❌"
