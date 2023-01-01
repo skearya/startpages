@@ -35,7 +35,7 @@
         background-color: rgba(10, 10, 10, 0.05);
         max-height: 80px;
         overflow: auto;
-        font-size: 1.1vw;
+        font-size: 15px;
         text-align: center;
         padding-left: 0px;
         border-radius: 0.6rem;

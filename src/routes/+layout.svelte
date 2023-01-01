@@ -10,7 +10,7 @@
       <div class="yellow" />
     </div>
     <div
-      style="background-color: #DF81CF; padding: 1px 5px; border-radius: 0 5px 5px 0;"
+      style="background-color: #DF81CF; height: 24px; line-height: 24px; padding: 0 5px; border-radius: 0 5px 5px 0;"
     >
       startpage
     </div>
