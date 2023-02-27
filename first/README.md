@@ -8,13 +8,6 @@
 - Uses [OpenWeatherMap](https://openweathermap.org/), [ssr-contributions-img](https://github.com/CatsJuice/ssr-contributions-img) and the [Notion API](https://developers.notion.com/)
 
 ---
-## Usage
-
-> npm install
-
-> npm run build
-
-> npm run preview
 
 To get the notion component to work you will most likely need to change the api request in src/+page.server.js to fit your database, other configuration is done through environment variables.
 
