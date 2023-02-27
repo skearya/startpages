@@ -1,10 +1,10 @@
-# My Startpage
+# old startpage
 
 <img width="1392" alt="image" src="https://user-images.githubusercontent.com/77034153/210124534-798827f9-33f6-42d5-9aaf-e9adf746a33e.png">
 
 > (preview) https://start.skeary.me/
 
-- Made with SvelteKit!
+- Made with SvelteKit
 - Uses [OpenWeatherMap](https://openweathermap.org/), [ssr-contributions-img](https://github.com/CatsJuice/ssr-contributions-img) and the [Notion API](https://developers.notion.com/)
 
 ---
